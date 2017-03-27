@@ -1,0 +1,63 @@
+[
+  {
+    "person_id": "58d9926cc76213057692d5e8",
+    "name": "Vaughn Greer",
+    "email": "vaughngreer@trollery.com",
+    "username": "esse",
+    "password": "aa837bc2-16e4-4d69-9387-e3619fb88c3b",
+    "registered": "2016-02-22T07:45:20 +08:00",
+    "fonts": [
+        ObjectId("58d991d662f033c399946430"),
+        ObjectId("58d991d6576d7d0fa15099a4")
+    ]
+  },
+  {
+    "person_id": "58d9926c2cf84344c3ca130f",
+    "name": "Fischer Daugherty",
+    "email": "fischerdaugherty@trollery.com",
+    "username": "labore",
+    "password": "032a62fb-7ff5-445b-b4ea-38d2bfb866df",
+    "registered": "2014-12-25T12:37:52 +08:00",
+    "fonts": [
+      ObjectId("58d991d6576d7d0fa15099a4"),
+      ObjectId("58d991d6f0ae9ca7a2639d4c"),
+      ObjectId("58d991d6f0ae9ca7a2639d4c")
+    ]
+  },
+  {
+    "person_id": "58d9926c960f1ee111fe0aed",
+    "name": "Lara Vance",
+    "email": "laravance@trollery.com",
+    "username": "veniam",
+    "password": "4956d25d-ac66-4bf4-8d4b-72239b8a6ca3",
+    "registered": "2015-12-05T03:20:08 +08:00",
+    "fonts": [
+      ObjectId("58d991d6f0ae9ca7a2639d4c")
+    ]
+  },
+  {
+    "person_id": "58d9926c164fff875c038302",
+    "name": "Ella Huffman",
+    "email": "ellahuffman@trollery.com",
+    "username": "quis",
+    "password": "3e7d6607-647d-4a26-ab9c-38c0095f92d7",
+    "registered": "2016-06-09T06:57:37 +07:00",
+    "fonts": [
+      ObjectId("58d991d6aec8dc117098ff93"),
+      ObjectId("58d991d643967ec9e773b7f4")
+    ]
+  },
+  {
+    "person_id": "58d9926cffa093b63219553d",
+    "name": "Angela Mosley",
+    "email": "angelamosley@trollery.com",
+    "username": "excepteur",
+    "password": "a7d5282c-8904-4245-8998-d51d4fcb5513",
+    "registered": "2015-04-01T04:00:40 +07:00",
+    "fonts": [
+      ObjectId("58d991d643967ec9e773b7f4"),
+      ObjectId("58d991d6f0ae9ca7a2639d4c"),
+      ObjectId("58d991d6aec8dc117098ff93")
+    ]
+  }
+]
