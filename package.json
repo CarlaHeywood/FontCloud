@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CarlaHeywood/FontCloud/issues"
   },
-  "homepage": "https://github.com/CarlaHeywood/FontCloud#readme"
+  "homepage": "https://github.com/CarlaHeywood/FontCloud#readme",
+  "dependencies": {
+    "mongodb": "^2.2.25"
+  }
 }
