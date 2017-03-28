@@ -18,9 +18,24 @@ var insertDocument = function(db, callback) {
   });
 };
 
+var findFonts = function(db, callback) {
+   var cursor =db.collection('fonts').find( );
+   cursor.each(function(err, doc) {
+      assert.equal(err, null);
+      if (doc != null) {
+         console.dir(doc);
+      } else {
+         callback();
+      }
+   });
+};
+
 MongoClient.connect(url, function(err, db) {
   assert.equal(null, err);
   insertDocument(db, function() {
+      db.close();
+  });
+  findFonts(db, function() {
       db.close();
   });
 });
