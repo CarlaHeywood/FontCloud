@@ -1,0 +1,58 @@
+.page{
+  overflow: hidden;
+	height: 100%;
+	min-height: 100%;
+}
+/* Centering */
+.parent{
+	position: absolute;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.child{
+	position: relative;
+}
+/* To be centered */
+#parent1,#parent2,#parent3, #parent4, #signedInParent{
+	  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*************************/
+#homeParent{
+  background-image: url("/pics/FontCloudLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#signInChild{
+  margin: 0 auto;
+  display: block;
+  top:15%;
+  background-color: #BDC3C7;
+  width:85%;
+  border-radius: 1%;
+}
+form{
+  width:100%;
+  margin: auto;
+  text-align: left;
+  padding: 1%;
+}
+#submitButton{
+  background-color: pink;
+  border: pink;
+  color: black;
+}
+.form-group{
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.form-control{
+  margin: auto;
+  display: block;
+  width:100%;
+}
