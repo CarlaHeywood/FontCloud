@@ -2,14 +2,15 @@
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
-var url = 'mongodb://localhost:27017';
+var url = 'mongodb://tiffanypan:<tiffany96>@fontcloud-shard-00-00-qvssg.mongodb.net:27017,fontcloud-shard-00-01-qvssg.mongodb.net:27017,fontcloud-shard-00-02-qvssg.mongodb.net:27017/<DATABASE>?ssl=true&replicaSet=FontCloud-shard-0&authSource=admin';
 
+/*
 var insertDocument = function(db, callback) {
    db.collection('fonts').insertOne( {
      "font_id": ObjectId(),
      "font_name": "Helvetica",
      "file": "helvetica.file",
-    "web": "https://fontaddress.com",
+     "web": "https://fontaddress.com",
      "preview": "http://preview.it"
    }, function(err, result) {
     assert.equal(err, null);
@@ -17,25 +18,11 @@ var insertDocument = function(db, callback) {
     callback();
   });
 };
-
-var findFonts = function(db, callback) {
-   var cursor =db.collection('fonts').find( );
-   cursor.each(function(err, doc) {
-      assert.equal(err, null);
-      if (doc != null) {
-         console.dir(doc);
-      } else {
-         callback();
-      }
-   });
-};
+*/
 
 MongoClient.connect(url, function(err, db) {
   assert.equal(null, err);
   insertDocument(db, function() {
-      db.close();
-  });
-  findFonts(db, function() {
       db.close();
   });
 });

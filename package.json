@@ -1,5 +1,5 @@
 {
-  "name": "tiffany",
+  "name": "fontcloud",
   "version": "1.0.1",
   "description": "Test",
   "main": "test1",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CarlaHeywood/FontCloud#readme",
   "dependencies": {
+    "express": "^4.15.2",
     "mongodb": "^2.2.25"
   }
 }
